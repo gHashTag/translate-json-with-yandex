@@ -1,9 +1,25 @@
-## Usage with an API Key
+## How use it?
 
-node translate-json fixtures/translate-json/en.json fr,et,nl YOUR_GOOGLE_API_KEY
+In order to perform the translation, you need to do a few simple steps:
 
-## Usage without an API Key
+- First of all, install the dependencies:
 
-node translate-json fixtures/translate-json/en.json fr,et,nl
+```
+yarn
+```
 
-This free version will let you batch-translate a file until you start beeing rejected by Google's servers. As this script has caching enabled, it's possible to translate files incrementally. New requests will become available in 2 hours aproximately.
+or
+
+```
+npm install
+```
+
+- To make a translation, you need to get a Yandex API key. This can be done [here](https://console.cloud.yandex.ru/), according to [this guide](https://cloud.yandex.ru/docs/translate/operations/translate)
+
+- In the input folder, you need to place files of the `json` format that you need to translate, then change the paths `pathsToJSON` and `namesOutputJSON` according to the name
+
+- Finally you can translate your files:
+
+```
+node translate fr,et,nl <YOUR_FOLDER_ID> <YOUR_YANDEX_API_KEY>
+```
