@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "signIn": "Sign In"
+  },
+  "modals": {
+    "wantExit": "Are you sure you want to exit? 😅",
+    "updateApp": "A new update has been released!"
+  },
+  "online-part": {
+    "uComment": "Your comment",
+    "noPosts": "No posts yet. Make a move so you can post"
+  },
+  "or": "or",
+  "done": "Done",
+  "win": "Win"
+}

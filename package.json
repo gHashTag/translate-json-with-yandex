@@ -1,0 +1,12 @@
+{
+  "name": "translate-json-with-yandex",
+  "version": "0.0.1",
+  "description": "json simple translator",
+  "scripts": {},
+  "author": "Dmitry Vasiliev",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promisify": "^5.0.0",
+    "lodash": "^4.17.4"
+  }
+}
